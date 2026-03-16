@@ -10,10 +10,10 @@ from datetime import datetime
 warnings.filterwarnings("ignore", category=UserWarning)
 
 mydb = mysql.connector.connect(
-  host="cloudpro-mysql.mysql.database.azure.com",
-  user="mysqladmin",
-  password="Password123!",
-  database="idsappdb"
+  host="",
+  user="",
+  password="",
+  database=""
 )
 
 
