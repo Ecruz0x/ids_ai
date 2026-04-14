@@ -10,9 +10,10 @@ Simple ML project to detect network attacks from traffic data.
 
 Detects:
 - Benign
-- DoS (Hulk, GoldenEye)
+- DoS
 - Port Scan
 - Heartbleed
+- etc.
 
 ## Run
 
