@@ -18,7 +18,7 @@ Detects:
 
 ## Run
 
-Install deps:
+- Install deps:
 ```shell
 pip install pandas numpy scikit-learn matplotlib joblib
 ```
