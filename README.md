@@ -1,11 +1,12 @@
 # Network Intrusion Detection (ML)
 
-Simple ML project to detect network attacks from traffic data.
+ML school project to detect network attacks from traffic data.
 
+the notebook:
 - Loads multiple CSV files from `data/`
 - Cleans and reduces features
 - Encodes protocol (TCP=0, UDP=1)
-- Trains a `HistGradientBoostingClassifier`
+- Trains a `HistGradientBoostingClassifier` model
 - Splits data (70/30) and evaluates performance
 
 Detects:
@@ -25,11 +26,12 @@ pip install pandas numpy scikit-learn matplotlib joblib
 Put your data in:
 `data/`
 
-Run the notebook or script.
+Run the notebook. the trained model will be saved in `/model` which will be used to detect malicious traffic and save logs to a sql database.
 
 ## Notes
-
-- Works with large datasets
+- Add the Database credentials inside `netsniffer.py`
+- Add your data in a folder called `data/`
+- Model works with large datasets
 - Easy to modify / extend
 
 ## Contribution
